@@ -1,0 +1,33 @@
+/* HTML5 tags */
+header, section, footer, aside, nav, article, figure {
+    display: block;
+}
+
+.rabbit {
+    position: fixed;
+    left: 10px;
+    top: 0px;
+}
+
+.connections {
+    position: absolute;
+    left: 66px;
+    top: 0px;
+    font-size: small;
+}
+
+.main-nav {
+    position: absolute;
+    right: 0px;
+}
+
+.main-nav-element {
+    display: inline;
+    list-style-type: none;
+}
+
+.content {
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
