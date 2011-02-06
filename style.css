@@ -9,6 +9,10 @@ header, section, footer, aside, nav, article, figure {
     top: 0.1em;
 }
 
+img {
+    border-style: none;
+}
+
 .status {
     position: absolute;
     left: 66px;
@@ -37,6 +41,10 @@ header, section, footer, aside, nav, article, figure {
 .main-nav-element {
     display: inline;
     list-style-type: none;
+}
+
+.main-nav-element a {
+    text-decoration: none;
 }
 
 .main-nav-line {
@@ -71,23 +79,21 @@ header, section, footer, aside, nav, article, figure {
 }
 
 .nav ul{
-	display: none;
+    display: inline;
+    display: none;
 }
 
 .nav ul li{
-	list-style: none;
-	top: 2em;
+    display: inline;
+    list-style: none;
+    top: 2em;
+    margin-top: 0.1em;
 }
 
 .nav ul li a span{
-	visibility: hidden; /* BUG: In Mozilla, if this is display: none a render bug happens. */
+    display: inline;
+    visibility: hidden; /* BUG: In Mozilla, if this is display: none a render bug happens. */
 }/*
-
-/* The links */
-.nav ul li a{
-	display: block;
-	position: relative;
-}
 
 
 /* Content styling */
@@ -96,5 +102,73 @@ header, section, footer, aside, nav, article, figure {
     margin-top: 5em;
     margin-left: 83px;
     margin-right: 5em;
+}
+
+
+
+/* From greyandblue */
+/* infoboxes */
+
+div.infobox {
+	margin: 0 0 5px 0;
+	padding: 10px;
+/*	background-color: #f0f0f0;*/
+	border:0px none #676767;
+}
+
+div.infobox div.infobox-header {
+	color: #666666;
+	padding: 0px 20px 10px 20px;
+/*	border-bottom: 1px dashed #3366ff;*/
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 10pt;
+/*	background-color: #eee;*/
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+div.infobox div.infobox-content {
+	padding: 10px;
+	border: 1px dashed #3366ff;
+}
+
+
+div.infobox-information div.infobox-header {
+	background-color: #eee;
+	background-image: url(information.png);
+}
+
+div.infobox-warning div.infobox-header {
+	background-color: #eee;
+	background-image: url(warning.png);
+}
+
+div.infobox-alert {
+	background-color: #f0e8e8;
+}
+
+div.infobox-alert div.infobox-header {
+	background-color: #ffd0d0;
+	background-image: url(alert.png);
+}
+
+div.infobox-error {
+	background-color: #f0e8e8;
+}
+
+div.infobox-error div.infobox-header {
+	background-color: #ffd0d0;
+	background-image: url(error.png);
+}
+
+div.infobox-query div.infobox-header {
+	background-color: #f0f0e8;
+	background-image: url(query.png);
+}
+
+div.infobox-success div.infobox-header {
+	background-color: #e8f0e8;
+	background-image: url(success.png);
 }
 
