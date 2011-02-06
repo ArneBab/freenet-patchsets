@@ -59,9 +59,55 @@ img {
 /* Popup-Sublist adapted from http://stopdesign.com/archive/2003/03/07/replace-text.html */
 
 .nav{
-	z-index: 1000;
+    z-index: 1000;
 }
+
 .nav:hover{
+    z-index: 1000;
+    width: 100%; /* note change in width*/
+    height: 2em;
+    background-image: url(glass.png);
+    background-position: center 2px;
+    background-repeat: no-repeat;
+}
+
+.nav:hover ul{
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100%; /* note change in width*/
+    height: 1.7em;
+    background-image: url(nav-lower-bg.png);
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+
+.nav ul{
+    z-index: 1000;
+    display: inline;
+    display: none;
+}
+
+.nav ul li{
+    z-index: 1000;
+    display: inline;
+    list-style: none;
+    top: 2em;
+    margin-top: 0.1em;
+}
+
+.nav ul li a span{
+    z-index: 1000;
+    display: inline;
+    visibility: hidden; /* BUG: In Mozilla, if this is display: none a render bug happens. */
+}
+
+
+/* Popup-Sublist adapted from http://stopdesign.com/archive/2003/03/07/replace-text.html */
+
+.nav-open{
+	z-index: 0;
 	width: 100%; /* note change in width*/
 	height: 2em;
 	background-image: url(glass.png);
@@ -69,7 +115,8 @@ img {
 	background-repeat: no-repeat;
 }
 
-.nav:hover ul{
+.nav-open ul{
+	z-index: 0;
 	display: block;
 	position: absolute;
 	right: 0px;
@@ -78,22 +125,19 @@ img {
 	width: 100%; /* note change in width*/
 }
 
-.nav ul{
-    display: inline;
-    display: none;
-}
-
-.nav ul li{
+.nav-open ul li{
+    z-index: 0;
     display: inline;
     list-style: none;
     top: 2em;
     margin-top: 0.1em;
 }
 
-.nav ul li a span{
+.nav-open ul li a span{
+    z-index: 0;
     display: inline;
     visibility: hidden; /* BUG: In Mozilla, if this is display: none a render bug happens. */
-}/*
+}
 
 
 /* Content styling */
