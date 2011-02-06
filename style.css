@@ -33,7 +33,7 @@ img {
     position: absolute;
     right: 0px;
     top: 0.35em;
-    min-width: 62%;
+    width: 62%;
     text-align: right;
     color: gray;
 }
