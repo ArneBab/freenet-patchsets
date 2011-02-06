@@ -52,6 +52,7 @@ img {
     top: 2.5em;
     z-index: -1;
     width: 100%;
+    right: 0px;
     height: 2px;
     background-image: url(line.png);
 }
