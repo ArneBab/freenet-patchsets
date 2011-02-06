@@ -33,7 +33,7 @@ img {
     position: absolute;
     right: 0px;
     top: 0.35em;
-    min-width: 60%;
+    min-width: 62%;
     text-align: right;
     color: gray;
 }
@@ -86,7 +86,6 @@ img {
 
 .nav ul{
     z-index: 1000;
-    display: inline;
     display: none;
 }
 
