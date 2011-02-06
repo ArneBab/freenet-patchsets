@@ -4,3 +4,5 @@ Licensing
 kfontview.svgz and oxygen.gpl are licensed under the LGPL and GPL (respectively).
 
 kfontview.svgz is copyright © 2008 Craig Drummond <craig@kde.org>
+
+
