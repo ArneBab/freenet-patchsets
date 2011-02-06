@@ -4,9 +4,9 @@ header, section, footer, aside, nav, article, figure {
 }
 
 body {
-    /* background-image: url(bab-paw-to-left.png); */
-    /* background-repeat: repeat-x; */
-    /* background-position: 0px 3em; */
+    background-image: url(kaninchenspur.png);
+    background-repeat: no-repeat;
+    background-position: 90px 2.5em;
 }
 
 section {
