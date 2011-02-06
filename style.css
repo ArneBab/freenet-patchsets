@@ -12,7 +12,23 @@ header, section, footer, aside, nav, article, figure {
 .connections {
     position: absolute;
     left: 66px;
-    top: 0px;
+    top: 0em;
+    font-size: small;
+    color: gray;
+}
+
+.messages {
+    position: absolute;
+    left: 92px;
+    top: 1.65em;
+    font-size: small;
+    color: gray;
+}
+
+.language {
+    position: absolute;
+    left: 15px;
+    top: 3em;
     font-size: small;
     color: gray;
 }
