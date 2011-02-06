@@ -41,6 +41,7 @@ img {
 .main-nav-element {
     display: inline;
     list-style-type: none;
+    padding-left: 0.3em;
 }
 
 .main-nav-element a {
