@@ -1,0 +1,228 @@
+/* HTML5 tags for HTML 4.01 */
+header, section, footer, aside, nav, article, figure {
+    display: block;
+}
+
+body {
+    background-image: url(kaninchenspur_dark.png);
+    background-repeat: no-repeat;
+    background-position: 90px 2.5em;
+    background-color: black;
+}
+
+.rabbit {
+    position: fixed;
+    left: 0px;
+    top: 0.1em;
+}
+
+img {
+    border-style: none;
+}
+
+.status {
+    position: absolute;
+    left: 66px;
+    top: 0em;
+    font-size: small;
+    color: gray;
+}
+
+.language {
+    position: absolute;
+    left: 15px;
+    top: 3.2em;
+    font-size: small;
+    color: gray;
+}
+
+#main-nav {
+    position: absolute;
+    right: 0px;
+    top: 0.35em;
+    width: 62%;
+    text-align: right;
+    color: gray;
+}
+
+.main-nav-element {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0.3em;
+}
+
+.main-nav-element a {
+    text-decoration: none;
+}
+
+.main-nav-line {
+    position: absolute;
+    top: 2.5em;
+    z-index: -1;
+    width: 100%;
+    right: 0px;
+    height: 2px;
+    background-image: url(line.png);
+}
+
+/* Popup-Sublist adapted from http://stopdesign.com/archive/2003/03/07/replace-text.html */
+
+.nav{
+    z-index: 1000;
+}
+
+.nav:hover{
+    z-index: 1000;
+    width: 100%; /* note change in width*/
+    height: 2em;
+    background-image: url(glass.png);
+    background-position: center 2px;
+    background-repeat: no-repeat;
+}
+
+.nav:hover ul{
+    z-index: 1000;
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100%; /* note change in width*/
+    height: 1.7em;
+    background-image: url(nav-lower-bg.png);
+    background-position: center top;
+    background-repeat: repeat-x;
+}
+
+.nav ul{
+    z-index: 1000;
+    display: none;
+}
+
+.nav ul li{
+    z-index: 1000;
+    display: inline;
+    list-style: none;
+    top: 2em;
+    margin-top: 0.1em;
+}
+
+.nav ul li a span{
+    z-index: 1000;
+    display: inline;
+    visibility: hidden; /* BUG: In Mozilla, if this is display: none a render bug happens. */
+}
+
+
+/* Popup-Sublist adapted from http://stopdesign.com/archive/2003/03/07/replace-text.html */
+
+.nav-open{
+	z-index: 0;
+	width: 100%; /* note change in width*/
+	height: 2em;
+	background-image: url(glass.png);
+	background-position: center 2px;
+	background-repeat: no-repeat;
+}
+
+.nav-open ul{
+	z-index: 0;
+	display: block;
+	position: absolute;
+	right: 0px;
+	/*background-color: #AFAFC0;*/
+	height: 1.5em;
+	width: 100%; /* note change in width*/
+}
+
+.nav-open ul li{
+    z-index: 0;
+    display: inline;
+    list-style: none;
+    top: 2em;
+    margin-top: 0.1em;
+}
+
+.nav-open ul li a span{
+    z-index: 0;
+    display: inline;
+    visibility: hidden; /* BUG: In Mozilla, if this is display: none a render bug happens. */
+}
+
+
+/* Content styling */
+
+.content {
+    margin-top: 5em;
+    margin-left: 83px;
+    margin-right: 5em;
+}
+
+
+
+/* From greyandblue */
+/* infoboxes */
+
+div.infobox {
+	margin: 0 0 5px 0;
+	padding: 10px;
+/*	background-color: #f0f0f0;*/
+	border:0px none #676767;
+}
+
+div.infobox div.infobox-header {
+	color: #999999;
+	color: orange;
+	padding: 0px 20px 10px 20px;
+/*	border-bottom: 1px dashed #3366ff;*/
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 10pt;
+/*	background-color: #eee;*/
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+div.infobox div.infobox-content {
+    color: lime;
+    padding: 10px;
+    border: 1px dashed silver;
+}
+
+
+div.infobox-information div.infobox-header {
+	background-color: #eee;
+	background-image: url(information.png);
+}
+
+div.infobox-warning div.infobox-header {
+	background-color: #eee;
+	background-image: url(warning.png);
+}
+
+div.infobox-alert {
+	background-color: #f0e8e8;
+}
+
+div.infobox-alert div.infobox-header {
+	background-color: #ffd0d0;
+	background-image: url(alert.png);
+}
+
+div.infobox-error {
+	background-color: #f0e8e8;
+}
+
+div.infobox-error div.infobox-header {
+	background-color: #ffd0d0;
+	background-image: url(error.png);
+}
+
+div.infobox-query div.infobox-header {
+	background-color: #f0f0e8;
+	background-image: url(query.png);
+}
+
+div.infobox-success div.infobox-header {
+	background-color: #e8f0e8;
+	background-image: url(success.png);
+}
+
