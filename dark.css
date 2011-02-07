@@ -182,7 +182,7 @@ div.infobox div.infobox-header {
 }
 
 div.infobox div.infobox-content {
-    color: lime;
+    color: lime; /*aqua*/
     padding: 10px;
     border: 1px dashed silver;
 }
