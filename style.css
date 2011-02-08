@@ -89,7 +89,7 @@ img {
     position: absolute;
     right: 0px;
     width: 100%; /* note change in width*/
-    height: 1.7em;
+    height: 3em;
     background-image: url(nav-lower-bg.png);
     background-position: center top;
     background-repeat: repeat-x;
