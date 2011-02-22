@@ -3,6 +3,16 @@ header, section, footer, aside, nav, article, figure {
     display: block;
 }
 
+aside hidden {
+    display: none;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside:hover hidden {
+    display: block;
+}
+
 body {
     background-image: url(kaninchenspur.png);
     background-repeat: no-repeat;
@@ -158,8 +168,6 @@ img {
     margin-left: 83px;
     margin-right: 5em;
 }
-
-
 
 /* From greyandblue */
 /* infoboxes */
