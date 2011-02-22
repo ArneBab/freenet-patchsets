@@ -5,8 +5,10 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="style.css" type="text/css" />
   <title>Freenet into the rabbit hole</title>
+<!--borrowed from the Hurd-->
 </head>
 <body>
+<script src="toggle.js" type="text/javascript" charset="utf-8"></script>
   <header>
     <div class="main-nav-line">
     </div>
@@ -82,6 +84,7 @@
 </ul>
 
 <aside>
+<a class="toggle" href="#info.details">Tell me more… </a><div class="toggleable" id="info.details">
 <p>If you want to <strong>publish your own anonymous site</strong>, see <a href="/insertsite/">Upload a Freesite</a>. The list of indexes uses dynamic bookmarks. You get notified whenever a bookmarked site (like the indexes above) gets updated.</p>
 
 <p>You can create <strong>additional IDs</strong> at any time and give them <strong>any name and legend</strong> you choose by adding it on the <a href="/WebOfTrust/">WebOfTrust-page</a>. Each new ID has to verify for itself that it's human, though. If you carefully keep them separate, others can only find out with a lot of effort that your IDs are related. Mind your writing style. In doubt, keep your sentences short. To make it easier for you to stay anonymous, you can autogenerate Name and Legend at random. <em>Don't use the nicest from many random trials, else you can be traced by the kind of random IDs you select.</em></p>
@@ -95,6 +98,7 @@
 <p>To <strong>enter the Darknet</strong>, you add people you know and trust personally as your darknet friends. As soon as you have enough trusted friends, you can increase the <a href="/seclevels/">security level</a> to high and freenet will only connect to your trusted friends, making you disappear from the regular internet. The only way to tell that you are using freenet will then be to force your ISP to monitor all traffic coming from your computer.</p>
 
 <p>And once transport plugins are integrated, steganography will come into reach and allow masking your traffic as regular internet usage, making it very hard to distinguish freenet from encrypted internet-telephony. If you want to help making this a reality in the near future, please consider contributing or donating to freenet.</p>
+</div>
 </aside>
 
 <p><em>Welcome to the pseudonymous web where no one can know who you are, but only that you are always using the same ID - if you do so.<em></p>
