@@ -5,8 +5,10 @@ header, section, footer, aside, nav, article, figure {
 
 aside hidden {
     display: none;
-    margin-left: 1em;
-    margin-right: 1em;
+    background-color: silver;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: gray 1px dashed;
 }
 
 aside:hover hidden {
