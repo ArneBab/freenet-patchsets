@@ -3,7 +3,7 @@ header, section, footer, aside, nav, article, figure {
     display: block;
 }
 
-aside hidden {
+aside .hidden {
     display: none;
     background-color: silver;
     padding-left: 1em;
@@ -11,7 +11,11 @@ aside hidden {
     border: gray 1px dashed;
 }
 
-aside:hover hidden {
+aside:hover .hidden {
+    display: block;
+}
+
+aside .hidden:hover {
     display: block;
 }
 
