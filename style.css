@@ -19,6 +19,17 @@ aside .hidden:hover {
     display: block;
 }
 
+.gray {
+    color: gray;
+}
+
+.looking-glass {
+    float: left; 
+    margin-left: -1em; 
+    margin-top: 0.1em; 
+    margin-right: 0.2em;
+}
+
 body {
     background-image: url(kaninchenspur.png);
     background-repeat: no-repeat;
