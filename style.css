@@ -115,6 +115,7 @@ img {
     display: block;
     position: absolute;
     top: 1.18em;
+    padding-top: 0.15em;
     right: 0px;
     width: 100%; /* note change in width*/
     height: 2.5em;
@@ -158,6 +159,8 @@ img {
 	z-index: 0;
 	display: block;
 	position: absolute;
+	top: 1.18em;
+	padding-top: 0.15em;
 	right: 0px;
 	/*background-color: #AFAFC0;*/
 	height: 1.5em;
