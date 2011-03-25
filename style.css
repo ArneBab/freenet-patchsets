@@ -114,6 +114,7 @@ img {
     z-index: 1000;
     display: block;
     position: absolute;
+    top: 1.18em;
     right: 0px;
     width: 100%; /* note change in width*/
     height: 2.5em;
