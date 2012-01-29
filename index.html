@@ -17,39 +17,24 @@
 	</a>
       </div>
       <div class="status">
-	31/31 | Security Levels: NORMAL NORMAL | Messages: 2 not important.
+	Patchsets to freenet from longterm developers.
       </div>
       <div class="language">
 	English
       </div>
       <nav>
 	<ul id="main-nav">
-	  <li class="main-nav-element nav">
-	    <a href="#browse">Browse</a>
+	  <li class="main-nav-element nav-open">
+	    <a href="#browse">Patchsets</a>
 	    <ul>
-	      <li><a href="#start">start</a></li>
-	      <li>upload a page</li>
-	      <li>search freenet</li>
+	      <li><a href="#bombe">Bombe</a></li>
+	      <li><a href="#opernhiem">Opernhiem</a></li>
 	    </ul>
 	  </li>
 	  <li class="main-nav-element nav">
-	    <a href="community.html">Community</a>
-	    <ul>
-	      <li>Home</li>
-	      <li><a href="#own-id">Own IDs</a></li>
-	      <li>Known IDs</li>
-	      <li>Configuration</li>
-	    </ul>
+	    <a href="about.html">About</a>
 	  </li>
-	  <li class="main-nav-element nav">
-	    <a href="#config">Configuration</a>
-	    <ul>
-	      <li>Plugins</li>
-	      <li><a href="#node-config">Node</a></li>
-	      <li>...</li>
-	    </ul>
-	  </li>
-	  <li class="main-nav-element nav">
+<li class="main-nav-element nav">
 	    <!--dummy element as workaround for a relative-absolute positioning error-->
 	    &nbsp;
 	  </li>
@@ -63,82 +48,50 @@
       <section>    
 	<article>
 	  <div class="infobox infobox-alert">
-	    <div class="infobox-header"><span class="search-title-label"><em>Freenet is not yet online: Select a configuration</em></span>
+	    <div class="infobox-header"><span class="search-title-label"><em>Use at your own risk</em></span>
 	    </div>
-	    <div class="infobox-content"><em>On first run, freenet starts in offline-mode, so you can select the level of security you want, before activating it. Please select how you want to configure freenet. As soon as you select a configuration, Freenet will go online, taking you into the anonymous web.</em>
-
-	      <table>
-		<tr><th width="33%">Defaults</th>
-		  <th width="34%">Wizard</th>
-		  <th width="33%">By hand</th></tr>
-		<tr><td>
-		    <form style="text-align: justify; padding-right: 0.25em"><div style="text-align: center"><input type="button" name="config" value="Start at once with default settings" /></div>
-		      <p><em>Start freenet with <strong>default values</strong>. <span class="gray">This is suitable for relatively free countries <strong>where running freenet is legal</strong>, as long as you don't tell people what you intend to upload before uploading it and <strong>you don't have a powerful adversary</strong> trying to break your anonymity with a lot of resources.</span></em></p>
-		    </form>
-		  </td>
-		  <td>
-		    <form style="text-align: justify; padding-left: 0.25em; padding-right: 0.25em"><div style="text-align: center"><input type="button" name="config" value="Use the first-run Wizard" /></div>
-		      <p><em>Configure Freenet with the <strong>first-run wizard</strong>, <span class="gray">setting up the configuration according to <strong>your own privacy needs</strong> without having to dive into the technical details. Pressing the button will start the first-run wizard and start freenet afterwards.</span></em></p>
-		    </form>
-		  </td>
-		  <td>
-		    <form style="text-align: justify; padding-left: 0.25em"><div style="text-align: center"><input type="button" name="config" value="Configure by hand" /></div>
-		      <p><em>Configure Freenet <strong>by hand</strong>. <span class="gray">Pressing the button will take you to the advanced configuration of Freenet. After you finished adapting the configuration to fit your needs, save it and restart freenet by hand.</span></em></p>
-		    </form>
-		</td></tr>
-	      </table>
+	    <div class="infobox-content"><em>These patchsets are testing versions. They were produced by longterm developers, but they might still eat your fringe and empty your cat. You have been warned.</em><br />
+<em>Welcome to Freenet, where no one can tell you're reading.</em>
 	    </div>
 	  </div>
 	</article>
 
 	<article>
-	  <div id="search-freenet" class="infobox infobox-normal"><div class="infobox-header"><span class="search-title-label"><em>Welcome to Freenet, where no one can tell you're reading</em></span></div><div class="infobox-content"><div><em><a href="http://freenetproject.org">Freenet</a> tries hard to project your privacy.</em>
-
-		<p>Therefore we created a <strong>pseudonymous ID</strong> for you. Its name is <strong>Gandi Schmidt</strong>. Visit the [your IDs site] to see a legend we prepared for you. You can use this legend as fictional background for your ID, if you are really serious about staying anonymous.</p>
-
-		<p>During the next few hours, Freenet will ask you to solve various captchas to <strong>prove that you are human</strong>. Once enough other nodes successfully confirmed that you are human, you will get access to the <strong>forums and microblogging</strong>. This might take a few hours to a few days.</p>
-
-		<p><em>Note that <strong>other nodes don't know who you are</strong>. They don't know your IP, nor your real identity. The only thing they know is that you can solve captchas and how to send you a message.</em></p>
-
-		<p>While your humanity is being confirmed, you can find a wealth of content on the following <strong>indexes</strong>, some published anonymously, some not:</p>
-
-		<ul>
-		  <li>INDEX</li>
-		  <li>INDEX</li>
-		  <li>INDEX</li>
-		  <li>INDEX</li>
-		  <li>INDEX</li>
-		</ul>
-
+	  <div id="bombe" class="infobox infobox-normal"><div class="infobox-header"><span class="search-title-label"><em>Bombe</em></span></div><div class="infobox-content"><div>
 		<aside>
 		  <span class="gray"><em>To read more, <strong>touch this text</strong> and see your path into the rabbit hole...</em></span>
 		  <div class="hidden">
 		    <img class="looking-glass" src="looking-glass.png" width="50" height="50" alt="Looking Glass"/>
-		    <p>If you want to <strong>publish your own anonymous site</strong>, see <a href="/insertsite/">Upload a Freesite</a>. The list of indexes uses dynamic bookmarks. You get notified whenever a bookmarked site (like the indexes above) gets updated.</p>
-
-		    <p>You can create <strong>additional IDs</strong> at any time and give them <strong>any name and legend</strong> you choose by adding it on the <a href="/WebOfTrust/">WebOfTrust-page</a>. Each new ID has to verify for itself that it's human, though. If you carefully keep them separate, others can only find out with a lot of effort that your IDs are related. Mind your writing style. In doubt, keep your sentences short. To make it easier for you to stay anonymous, you can autogenerate Name and Legend at random. <em>Don't use the nicest from many random trials, else you can be traced by the kind of random IDs you select.</em></p>
-
-		    <p>If you want to use an <strong>existing name</strong>, be aware that this will make your anonymity depend on any other service where you used the same name. If some people can trace your name on a single one of the other services, they can perform a lexical analysis of your writing style to verify that your name in freenet and on the cracked service belongs to the same person. <em>Only use an existing name, if the anonymity of that ID is not crucial.</em></p>
-
-		    <p><em>Note: If you download content from freenet, it is being cached by other nodes. Therefore popular content is faster than rare content and you cannot overload nodes by requesting their data over and over again.</em></p>
-
-		    <p>You are currently using medium security in the range from low to high.</p>
-
-		    <p>In this <strong>security level</strong>, separated IDs are no perfect protection of your anonymity, though, since other members might not be able to see what you do in Freenet, but they can know that you use freenet in the first place, and corporations or governments with medium sized infrastructure can launch attacks which might make it possible to trace your contributions and accesses. If you want to disappear completely from the normal web and keep your freenet usage hidden, as well as make it very hard to trace your contributions, to be able to really exercise your right of free speech without fearing repercussions, you can use Freenet as Darknet - the more secure but less newcomer friendly way to use freenet; the current mode is Opennet.</p>
-
-		    <p>To <strong>enter the Darknet</strong>, you add people you know and trust personally as your darknet friends. As soon as you have enough trusted friends, you can increase the <a href="/seclevels/">security level</a> to high and freenet will only connect to your trusted friends, making you disappear from the regular internet. The only way to tell that you are using freenet will then be to force your ISP to monitor all traffic coming from your computer.</p>
-
-		    <p>And once transport plugins are integrated, steganography will come into reach and allow masking your traffic as regular internet usage, making it very hard to distinguish freenet from encrypted internet-telephony. If you want to help making this a reality in the near future, please consider <a href="http://freenetproject.org/developer.html">contributing</a> or <a href="http://freenetproject.org/donate.html">donating</a> to freenet.</p>
+		    <p>additional information</p>
 		  </div>
 		</aside>
-
-		<p>Welcome to the pseudonymous web where no one can know who you are, but only that you are always using the same ID - if you do so.</p>
-
-		<p>To show this welcome message again, you can at any time click on Intro in the links.</p>
 	      </div>
 	    </div>
 	  </div>
 	</article>
+
+	<article>
+	  <div id="opernhiem" class="infobox infobox-normal"><div class="infobox-header"><span class="search-title-label"><em>Opernhiem</em> <small>(<a href="http://127.0.0.1:8888/Sone/viewPost.html?post=12607819-6863-4035-ae36-183305f4ea30">2011-12</a></small>)</span></div><div class="infobox-content"><div>
+<p>I've released an unofficial patch set, and would really appreciate feedback and testing. The patch sets are available all-in-one here: <a href="http://127.0.0.1:8888/CHK@Aedoa0UglS3NVkeKe5GmyOkjpogxlUdtZIeWtWg9AW4,pjlquX8pWsMMu4of3Vjg5qIGer4sLRGb5EiklfHLezk,AAIC--8/all-changes.patch">all-changes.patch</a> </p> They can be applied against the official build 1405 source.</p>
+
+<p>If you'd like a drop-in replacement I've built a jar available here: <a href="http://127.0.0.1:8888/CHK@JEg8jVnqcwpUUQdfp0f6bLRUblzx7L1qQl5jUBCDNtw,X9fglw1uQsYBKD2w08s9euJmMnSKJAWylhB3foWfKC4,AAIC--8/freenet-operhiem1-unofficial-build-1.jar">freenet-operhiem1-unofficial-build-1.jar</a>.</p>
+		<aside>
+		  <span class="gray"><em>To read more, <strong>touch this text</strong> and see your path into the rabbit hole...</em></span>
+		  <div class="hidden">
+		    <img class="looking-glass" src="looking-glass.png" width="50" height="50" alt="Looking Glass"/>
+		    <p> The changes: </p>
+
+<ul><li>Fix duplicate Javadoc entries: javadoc-duplicate.patch Each Javadoc entry was generated twice. This fixes that. </li>
+<li>Add navbar and page CSS attributes: fproxy-attributes.patch As requested by FreeStyle (/Freetalk/showThread?BoardName=eng.freenet&ThreadID=776332e1-4c3c-478e-bc7d-5cc063a3c989@4nZEgeYC3x2HXdhYGvSnuF~MxrddmNNrKs~SCX2gGIE)</li>
+ 
+<li>The current path is now appended to "page-" in an id on the &lt;body>. </li><li> The fproxy-page attribute on the &lt;body> has been changed from an id to a class. None of the official themes reference this attribute. </li><li> Fred navlist entries now have an id based on the localization key. </li><li> Plugin navlist entries now have an id based on the localization key appended to the class name, separated by a dash. </li><li> The navlist-selected attribute has been changed from an id to a class. The official themes are updated to reflect this.</li><li><strong>Disk browser fixes</strong> file-browser-cleanup.patch Removes state from the browser so reentrantcy or getting stuck should not be a problem. Adds null checks to hopefully avoid NPEs. Node permissions should now be used correctly - previously the check was for upload permission in all cases. Directories that are not allowed are not rendered. This means that if allowed directories are disjoint that they cannot be browsed between. A virtual top-level directory to allow access to these would work, but is not implemented.</li><li><strong>Alert configuration changes fix</strong> useralert-config.patch Alerts that change configuration values were missing the attribute to specify which subconfig the desired value was part of. Now alerts that ask for a configuration change should work as intended again.</li><li><strong>Queue toadlet cleanup</strong> queue-cleanup.patch Refactoring to replace an enum pattern with a real enum and verbose global l10n() calls with a local equivalent. No functional changes. Please let me know what you think, or if problems turn up. I hope to continue releasing patches similarly, so if there's anything I can do to present this better please mention it.</p>
+		  </div>
+		</aside>
+	      </div>
+	    </div>
+	  </div>
+	</article>
+
       </section>
     </div>
     <footer>
